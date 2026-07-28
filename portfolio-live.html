@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="description" content="Paulo Marques — Aspiring Front-End Developer" />
+<title>Paulo Marques · Portfolio</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/portfolio.css">
+</head>
+<body>
+
+<div class="bg-canvas" aria-hidden="true">
+  <div class="blob b1"></div><div class="blob b2"></div><div class="blob b3"></div>
+  <div class="grid-overlay"></div>
+</div>
+
+<nav class="nav" id="nav">
+  <a href="#hero" class="nav-logo">
+    <span class="dot"></span>
+    <span><span data-nav-logo>Paulo</span>.dev</span>
+  </a>
+  <div class="nav-links">
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#journey">Journey</a>
+    <a href="#goals">Goals</a>
+  </div>
+  <a href="#contact" class="nav-cta">Contact</a>
+</nav>
+
+<!-- HERO -->
+<header class="hero" id="hero">
+  <div class="container hero-grid">
+    <div>
+      <div class="hero-greeting"><span class="wave">👋</span> Hello, my name is</div>
+      <h1 class="hero-name"><span class="gradient-text" data-hero-name>Paulo Marques</span>.</h1>
+      <h1 style="margin-top:-10px;"><span class="typed" data-typed></span></h1>
+      <p class="hero-sub" data-hero-sub>Aspiring Front-End Developer</p>
+      <p class="hero-intro" data-hero-intro></p>
+      <div class="hero-ctas">
+        <a href="#projects" class="btn btn-primary">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 3h7v7H3zM14 3h7v7h-7zM14 14h7v7h-7zM3 14h7v7H3z"/></svg>
+          View Projects
+        </a>
+        <a href="#contact" class="btn btn-ghost">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16v16H4z"/><path d="m4 7 8 6 8-6"/></svg>
+          Contact Me
+        </a>
+        <span data-resume-cta></span>
+      </div>
+    </div>
+    <div class="hero-visual" aria-hidden="true">
+      <div class="core"></div>
+      <div class="ring r1"><span class="orbit-dot"></span></div>
+      <div class="ring r2"></div>
+      <div class="ring r3"></div>
+      <div class="glass-card c1">
+        <span class="ic"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m5 13 4 4L19 7"/></svg></span>
+        <div><strong>Currently building</strong><span>Portfolio v1.0</span></div>
+      </div>
+      <div class="glass-card c2">
+        <span class="ic"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v20M2 12h20"/></svg></span>
+        <div><strong>Next focus</strong><span>JavaScript & React</span></div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow"><span class="pulse-dot"></span> About me</span>
+      <h2>A beginner with <span class="gradient-text">builder mindset</span>.</h2>
+    </div>
+    <div class="about-content" data-about></div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow"><span class="pulse-dot"></span> Toolbox</span>
+      <h2>Technologies I'm building with.</h2>
+    </div>
+    <div class="skills-grid" data-skills></div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow"><span class="pulse-dot"></span> Selected work</span>
+      <h2>Projects I'm <span class="gradient-text">proud of</span>.</h2>
+    </div>
+    <div class="projects-grid" data-projects></div>
+    <p style="text-align:center; color:var(--text-3); font-size:13px; margin-top:32px;">
+      <a href="admin.html" style="color:var(--blue-2);">Manage these projects → open the CMS</a>
+    </p>
+  </div>
+</section>
+
+<!-- JOURNEY -->
+<section id="journey">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow"><span class="pulse-dot"></span> My path</span>
+      <h2>The journey so far.</h2>
+    </div>
+    <div class="timeline" data-journey></div>
+  </div>
+</section>
+
+<!-- GOALS -->
+<section id="goals">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow"><span class="pulse-dot"></span> Roadmap</span>
+      <h2>Where I'm heading <span class="gradient-text">next</span>.</h2>
+    </div>
+    <div class="goals-wrap" data-goals></div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow"><span class="pulse-dot"></span> Let's connect</span>
+      <h2>Have an idea? <span class="gradient-text">Let's talk.</span></h2>
+      <p>Whether it's an opportunity, a project idea, or just a friendly hello — my inbox is open.</p>
+    </div>
+    <div class="contact-grid">
+      <div class="contact-card big">
+        <h2>Reach out 👋</h2>
+        <p>I'm currently open to junior Front-End roles, internships, and collaborations on small creative projects.</p>
+
+        <form class="contact-form" data-contact-form novalidate>
+          <input type="text" name="website" tabindex="-1" autocomplete="off" style="position:absolute; left:-9999px;" aria-hidden="true">
+          <div class="form-grid-2">
+            <label class="field"><span>Your name</span><input type="text" name="name" required maxlength="100" /></label>
+            <label class="field"><span>Your email</span><input type="email" name="email" required maxlength="200" /></label>
+          </div>
+          <label class="field"><span>Subject</span><input type="text" name="subject" required maxlength="150" /></label>
+          <label class="field"><span>Message</span><textarea name="message" rows="6" required maxlength="2000" placeholder="Tell me about your idea or just say hi…"></textarea></label>
+          <div class="form-status" data-form-status></div>
+          <button type="submit" class="btn btn-primary" data-form-submit>
+            <span data-label>Send message</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 2 11 13M22 2 15 22 11 13 2 9z"/></svg>
+          </button>
+        </form>
+      </div>
+
+      <div class="contact-channels" data-contact-channels></div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container footer-inner">
+    <div class="credits">© <strong id="year"></strong> <span data-nav-logo>Paulo</span> · Built with care & curiosity.</div>
+    <div class="small-links" data-footer-contact></div>
+  </div>
+</footer>
+
+<!-- Minimum reusable subset of the static portfolio's CSS for the live template -->
+<link rel="stylesheet" href="assets/portfolio.css">
+<script src="assets/store.js"></script>
+<script src="assets/api.js"></script>
+<script src="assets/ui.js"></script>
+<script src="assets/skills.js"></script>
+<script src="assets/portfolio.js"></script>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
