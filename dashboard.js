@@ -145,7 +145,7 @@
         type: 'info',
         title: 'Project ' + (p.status === 'draft' ? 'drafted' : 'published'),
         message: p.title,
-        timestamp: p.updatedAt || Store.meta.updatedAt,
+        timestamp: p.updatedAt || Store.meta?.updatedAt || Date.now(),
       }));
 
       // Add a synthetic "Message received" for each unread message

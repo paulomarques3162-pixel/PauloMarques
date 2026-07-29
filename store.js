@@ -35,12 +35,12 @@
       { id: genId('s'), name: 'Next.js',     icon: 'nextjs',   proficiency: 5,  visible: true,  locked: true,  badge: 'Goals'  },
     ],
     social: {
-      github:    { url: 'https://github.com/paulomarques', enabled: true  },
-      linkedin:  { url: 'https://linkedin.com/in/paulomarques', enabled: true },
-      email:     { url: 'mailto:paulo.marques@example.com',    enabled: true },
-      whatsapp:  { url: 'https://wa.me/5511999999999',         enabled: true },
+      github:    { url: 'https://www.linkedin.com/in/paulo-marques-6149033a1/', enabled: true  },
+      linkedin:  { url: 'https://www.linkedin.com/in/paulo-marques-6149033a1/', enabled: true },
+      email:     { url: 'mailto:paulo.marques3162@example.com',    enabled: true },
+      whatsapp:  { url: 'https://wa.me/5519989534466',         enabled: true },
       portfolio: { url: '#', enabled: true },
-      instagram: { url: '', enabled: false },
+      instagram: { url: 'https://www.instagram.com/pqp_paulo0/', enabled: true },
       x:         { url: '', enabled: false },
     },
     about: {
@@ -49,7 +49,7 @@
       avatar: '',
       resume: null,             // { name, data }
       bio: [
-        "I recently started my degree in Computer Science / Software Development and I'm at the very beginning of my professional journey. Even though I don't have industry experience yet, I treat every day as an opportunity to learn, ship something small, and get one percent better.",
+        "I recently embarked on my journey in Computer Science / Software Development and I'm at the very beginning of my professional journey. Even though I don't have industry experience yet, I treat every day as an opportunity to learn, ship something small, and get one percent better.",
         "My goal is clear: to become an outstanding Front-End Developer who builds interfaces that feel effortless, accessible, and memorable. I'm also studying English independently because I believe clear communication is part of being a great teammate in tech.",
         "I don't try to hide that I'm a beginner — I want this portfolio to show the trajectory: someone who is growing fast, shipping consistently, and investing seriously in the craft.",
       ],

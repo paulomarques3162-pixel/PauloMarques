@@ -18,6 +18,8 @@
 
   const KEY_HASH = 'paulo_cms_credentials_v1';
 
+  localStorage.removeItem(KEY_HASH);
+
   function loadCredentials() {
     try {
       const raw = localStorage.getItem(KEY_HASH);
